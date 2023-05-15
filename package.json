@@ -1,0 +1,13 @@
+{
+  "name": "native-test-runner-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test ./tests/",
+    "test:watch": "node --watch --test ./tests/"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.4"
+  }
+}
